@@ -1,5 +1,6 @@
 <?php
 class Battery{
+	//Add comment to see if it can broke much code
 	public $battery_name;
 	public $battery_type;
 	public $battery_endurance;
@@ -32,5 +33,13 @@ class Battery{
 			power: $this->battery_power <br/>";
 	}
 
+	//Add comment and code at the end
+	public function show_battery2(){
+		echo "Battery info:...
+			battery: $this->battery_name <br/>
+			type: $this->battery_type <br/>
+			endurance: $this->battery_endurance <br/>
+			power: $this->battery_power <br/>";
+	}
 }
 ?>
